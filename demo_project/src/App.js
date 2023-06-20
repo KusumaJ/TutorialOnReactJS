@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import React from 'react';
+// import './App.css';
 
 function App() {
   return (
+    // JSX
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <h1>My first react application :D</h1>
+      {/* <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,9 +19,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
 
 export default App;
+// export once at a time using the KW `default`
